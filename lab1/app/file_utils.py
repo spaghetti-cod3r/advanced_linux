@@ -17,6 +17,13 @@ def is_shared_library(file_path):
             return True
     return False
 
+# def get_library_base_name(library_path):
+#     """Get the base name of a shared library (ignoring version numbers)."""
+#     return os.path.basename(library_path).split('.')[0] + '.so'
 def get_library_base_name(library_path):
     """Get the base name of a shared library (ignoring version numbers)."""
-    return os.path.basename(library_path).split('.')[0] + '.so'
+    base = os.path.basename(library_path)
+    # Handle different library naming patterns:
+    if base.startswith('lib'):
+        return base.split('.so')[0] + '.so'
+    return base.split('.')[0] + '.so'
