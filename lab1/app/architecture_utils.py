@@ -34,7 +34,7 @@ def get_file_architecture(file_path):
         )
         if result.returncode == 0:
             output = result.stdout.lower()
-            print(output)
+            # print(output)
             
             if 'x86-64' in output:
                 return 'x86_64'
