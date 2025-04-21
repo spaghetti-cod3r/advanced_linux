@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab4/kernel_module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ammar/Desktop/advanced_linux/lab4/kernel_module/Module.symvers -T /home/ammar/Desktop/advanced_linux/lab4/kernel_module/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab4/kernel_module/int_stack.mod := printf '%s\n'   int_stack.o | awk '!x[$$0]++ { print("/home/ammar/Desktop/advanced_linux/lab4/kernel_module/"$$0) }' > /home/ammar/Desktop/advanced_linux/lab4/kernel_module/int_stack.mod
