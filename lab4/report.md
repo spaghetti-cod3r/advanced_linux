@@ -20,7 +20,7 @@
   #include <linux/slab.h>
 
   MODULE_LICENSE("GPL");
-  MODULE_AUTHOR("Mohamad Nour Shahin");
+  MODULE_AUTHOR("Ammar Meslmani");
   MODULE_DESCRIPTION("Integer Stack Kernel Module");
 
   #define DEVICE_NAME "int_stack"
@@ -194,7 +194,7 @@
   	make -C $(KDIR) M=$(PWD) clean
   ```
 - now let's build the module
-- ![](assets/image1.png)
+- ![img](assets/image1.png)
 - let's verify and load the module and create a node device
 - ![](assets/image2.png)
 - now let's create `stack_ioctl.h` header file:

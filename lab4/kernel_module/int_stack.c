@@ -9,7 +9,7 @@
 #include <linux/slab.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Mohamad Nour Shahin");
+MODULE_AUTHOR("Ammar Meslmani");
 MODULE_DESCRIPTION("Integer Stack Kernel Module");
 
 #define DEVICE_NAME "int_stack"
