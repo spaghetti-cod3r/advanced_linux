@@ -22,7 +22,7 @@
   pr_info("int_stack: core initialized, waiting for USB key\n");
   ```
 - let's check VID:PID of my little chinese wirleless mouse
-- ![](assets/image1.png)
+- ![img](assets/image1.png)
 - let's create `usb_gate.c` file:
 
   ```
@@ -112,9 +112,9 @@
   	make -C $(KDIR) M=$(PWD) clean
   ```
 - and let's build:
-- ![](assets/image2.png)
+- ![img](assets/image2.png)
 - now let's keep the usb plugged in and compile `kernel_stack.c` and try running it
-- ![](assets/image3.png)
+- ![img](assets/image3.png)
 - now let's unplug the usb and try to run the program again
-- ![](assets/image4.png)
+- ![img](assets/image4.png)
 - done!
