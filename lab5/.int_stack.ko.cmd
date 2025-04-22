@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab5/int_stack.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ammar/Desktop/advanced_linux/lab5/int_stack.ko /home/ammar/Desktop/advanced_linux/lab5/int_stack.o /home/ammar/Desktop/advanced_linux/lab5/int_stack.mod.o

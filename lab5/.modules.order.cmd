@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab5/modules.order := {   echo /home/ammar/Desktop/advanced_linux/lab5/int_stack.o;   echo /home/ammar/Desktop/advanced_linux/lab5/usb_gate.o; :; } > /home/ammar/Desktop/advanced_linux/lab5/modules.order

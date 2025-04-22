@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab5/usb_gate.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ammar/Desktop/advanced_linux/lab5/usb_gate.ko /home/ammar/Desktop/advanced_linux/lab5/usb_gate.o /home/ammar/Desktop/advanced_linux/lab5/usb_gate.mod.o

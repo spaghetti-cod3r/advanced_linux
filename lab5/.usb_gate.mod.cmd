@@ -1,0 +1,1 @@
+savedcmd_/home/ammar/Desktop/advanced_linux/lab5/usb_gate.mod := printf '%s\n'   usb_gate.o | awk '!x[$$0]++ { print("/home/ammar/Desktop/advanced_linux/lab5/"$$0) }' > /home/ammar/Desktop/advanced_linux/lab5/usb_gate.mod
