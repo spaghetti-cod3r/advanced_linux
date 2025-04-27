@@ -1,0 +1,7 @@
+#!/bin/sh
+mount -t proc none /proc
+mount -t sysfs none /sys
+echo "====================================================<MOUNTING mmcblk0>===================================================="
+mount -t ext4 /dev/mmcblk0p2 /mnt
+echo "====================================================<SWITCHING ROOT>===================================================="
+exec switch_root /mnt /sbin/init
